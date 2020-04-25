@@ -1,0 +1,97 @@
+cd filename     进入目标文件夹
+cd ..       返回上层文件夹目录
+mkdir filename      创建目录
+git init        初始化
+git add filename filename    添加文件到缓存区
+git add .       添加本文件夹中所有文件到缓存区
+git commit -m"要输入的备注内容"     提交修改，一定要写comments，写明修改了哪些文件
+如果 -m 后忘了输入"备注的内容"，后续操作：
+    1.摁键盘i,最下面有所变化
+    2.此时光标在最上面，输入要替提交的说明'comment',按Esc,然后输入:（注意输入冒号一定要在英文输入状态下）,光标跑到了最下面
+    3.输入wq之后，按回车即可，就要回到了原始的命令行界面
+
+
+git status      查看当前状态
+git log     查看版本/提交记录 得到此次提交之前的版本commit id（从现在往前看）
+git log --pretty=oneline    查看版本/提交记录 单行显示
+git reset --hard 提交编号       回到提交时的状态
+git reflog      查看历史操作，得到之前所有的commit id （从现在往后看）
+commit id至少写前四个，不一定非要写全
+
+线上仓库步骤
+基于http协议
+1. mkdir filename    新建文件夹
+2. git clone 地址        克隆线上仓库到本地
+3. 在仓库上做对应的操作（提交暂存区，提交本地仓库，提交线上仓库，拉去线上仓库）
+    git push    提交到线上仓库
+        在首次push提交内容出现403错误，原因是不是任何人都可以往线上仓库提交内容，必须鉴权
+        修改  .git/cocnfig 文件 url=https://用户名:密码@github.comxxxxx
+    git pull    拉取线上新版本
+提醒：
+    每天工作的第一件事就是先git pull，下班前git push
+
+
+基于ssh协议
+1. 打开提示
+2. 创建公私钥文件
+     ssh-keygen -t rsa -C "github用户名"    一路enter
+3. 上传公钥文件内容(C:\Users\Michael\.ssh\id_rsa.pub) 用记事本打开，复制，粘贴到github网页中 add ssh key
+4. 执行后续git操作
+
+    1. git clone
+    2. mkdir withSSH
+    git commit
+    git push
+
+
+
+分支：
+master分支，默认分支
+git branch      查看分支
+git branch 分支名      创建分支
+git checkout 分支名        切换分支
+git checkout -b 分支名     创建新分支并切换到该分支
+git branch -d 分支名       删除分支（删除分支时要先退出该分支）
+git merge 被合并的分支名       合并分支
+
+各分支之间的内容互不影响
+git merge 合并，将被合并分支的内容添加到目前所在的分支中
+
+
+冲突的产生和解决
+产生冲突：
+    在github上进行修改文件内容或其他人进行了 git push
+    在本地没有执行 git pull
+    在本地修改同一文件内容并进行git add .     git commit
+    此时进行git push则会产生冲突
+
+冲突解决：
+    先git pull
+    git将线上与本地仓库的冲突合并到了对应的文件中
+    打开冲突文件，解决冲突
+        解决方法：需要和同事进行商量，看代码如何保留，将改好的代码提交即可
+
+图形管理工具
+    Github for Desktop      github官方软件，功能全，好看
+    Source tree             号称最好用的软件
+    TortoiseGit             对于熟悉svn的开发人员友好
+    右键 → Git GUI Here       功能没有前面三个强大
+
+
+忽略文件
+需要新建一个名为.gitignore的文件，用于声明忽略文件或不忽略文件的规则，规则对当前目录及子目录生效
+windows下没办法直接创建，可通过命令行Git bash来touch创建
+常见规则：
+/mtk/    过滤整个文件夹
+*.zip       过滤所有.zip子文件夹
+/mtk/doc    过滤某个具体文件
+!index.php      不过滤某个具体文件(! 表示取反)
+# 注释本行
+
+1. 先在本地仓库中新建一个js目录，以及目录中js文件
+2. 依次提交本地与线上
+3. 命令行 touch .gitignore
+4. 编写文件中的规则
+5. 修改文件内容
+5. 再次提交
+
