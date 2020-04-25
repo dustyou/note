@@ -6,13 +6,12 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
-import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-public class JdbcTemplateDemo2 {
+public class JdbcTemplateDemo4 {
     public static void main(String[] args) {
 
 //        JdbcTemplate的CRUD操作
@@ -46,23 +45,4 @@ public class JdbcTemplateDemo2 {
     
     
     
-}
-
-//定义Account的封装策略
-class AccountRowMapper implements RowMapper<Account> {
-    /**
-     * 把结果集中的数据封装到Account中，然后由spring把每个Account加到集合中
-     * @param resultSet
-     * @param i
-     * @return
-     * @throws SQLException
-     */
-    @Override
-    public Account mapRow(ResultSet resultSet, int i) throws SQLException {
-        Account account = new Account();
-        account.setId(resultSet.getInt("id"));
-        account.setName(resultSet.getString("name"));
-        account.setMoney(resultSet.getFloat("money"));
-        return account;
-    }
 }
