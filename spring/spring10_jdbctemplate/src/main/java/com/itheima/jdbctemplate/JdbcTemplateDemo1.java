@@ -1,9 +1,10 @@
-package com.itheima;
+package com.itheima.jdbctemplate;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 public class JdbcTemplateDemo1 {
+    //建立jdbc连接，插入数据操作
     public static void main(String[] args) {
         //准备数据源：spring的内置数据源
         DriverManagerDataSource ds = new DriverManagerDataSource();

@@ -1,4 +1,4 @@
-package com.itheima;
+package com.itheima.jdbctemplate;
 
 import com.itheima.domain.Account;
 import org.springframework.context.ApplicationContext;
@@ -6,13 +6,16 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-public class JdbcTemplateDemo4 {
+public class JdbcTemplateDemo3 {
     public static void main(String[] args) {
+    
+//用xml配置的方式进行增删改查
 
 //        JdbcTemplate的CRUD操作
     //1. 获取容器
@@ -27,8 +30,9 @@ public class JdbcTemplateDemo4 {
 //        删除
         jt.update("delete from account where id = ?",8);
 //        查询所有
-        //jdk自带的
+        //jdk自带的方法，需要新建一个AccountRowMapper implements RowMapper<Account>
 //        List<Account> accounts = jt.query("select * from account where money >?", new AccountRowMapper(),1000f);
+        
         //spring封装的方法
 //        List<Account> accounts = jt.query("select * from account where money >?", new BeanPropertyRowMapper<Account>(Account.class),1000f);
 //        for (Account account : accounts) {
@@ -45,4 +49,23 @@ public class JdbcTemplateDemo4 {
     
     
     
+}
+
+//定义Account的封装策略
+class AccountRowMapper implements RowMapper<Account> {
+    /**
+     * 把结果集中的数据封装到Account中，然后由spring把每个Account加到集合中
+     * @param resultSet
+     * @param rowNum
+     * @return
+     * @throws SQLException
+     */
+    @Override
+    public Account mapRow(ResultSet resultSet, int rowNum) throws SQLException {
+        Account account = new Account();
+        account.setId(resultSet.getInt("id"));
+        account.setName(resultSet.getString("name"));
+        account.setMoney(resultSet.getFloat("money"));
+        return account;
+    }
 }
