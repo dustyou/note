@@ -10,6 +10,7 @@ import java.util.List;
 
 //持久层的实现
 public class AccountDaoImpl implements IAccountDao {
+    
     private JdbcTemplate jdbcTemplate;
     
     public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {

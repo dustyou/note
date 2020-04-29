@@ -9,24 +9,22 @@ import java.util.List;
 
 
 //持久层的实现
-//继承
-
-public class AccountDaoImpl2 extends JdbcDaoSupport implements IAccountDao {
-    
+public class AccountDaoImpl2 implements IAccountDao {
     private JdbcTemplate jdbcTemplate;
+    
     public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
-        this.jdbcTemplate = super.getJdbcTemplate();
+        this.jdbcTemplate = jdbcTemplate;
     }
     
     @Override
     public Account findAccountById(Integer accountId) {
-        List<Account> accounts = super.getJdbcTemplate().query("select * from account where id = ?", new BeanPropertyRowMapper<Account>(Account.class), accountId);
+        List<Account> accounts = jdbcTemplate.query("select * from account where id = ?", new BeanPropertyRowMapper<Account>(Account.class), accountId);
         return accounts.isEmpty()?null:accounts.get(0);
     }
     
     @Override
     public Account findAccountByName(String accountName) {
-        List<Account> accounts = super.getJdbcTemplate().query("select * from account where name = ?", new BeanPropertyRowMapper<Account>(Account.class));
+        List<Account> accounts = jdbcTemplate.query("select * from account where name = ?", new BeanPropertyRowMapper<Account>(Account.class));
         if(accounts.isEmpty()){
             return null;
         }
@@ -38,6 +36,6 @@ public class AccountDaoImpl2 extends JdbcDaoSupport implements IAccountDao {
     
     @Override
     public void updateAccount(Account account) {
-        super.getJdbcTemplate().update("update account set name=?, money=? where id=?", account.getName(), account.getMoney(), account.getId());
+        jdbcTemplate.update("update account set name=?, money=? where id=?", account.getName(), account.getMoney(), account.getId());
     }
 }
