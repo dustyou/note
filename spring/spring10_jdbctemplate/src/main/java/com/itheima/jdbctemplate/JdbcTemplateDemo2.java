@@ -24,3 +24,5 @@ public class JdbcTemplateDemo2 {
         jt.execute("insert into account (name,money) values('ddd',2222)");
     }
 }
+
+
