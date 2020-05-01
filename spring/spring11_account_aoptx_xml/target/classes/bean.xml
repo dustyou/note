@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-2.5.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop.xsd">
+<!--    开启spring对注解AOP的支持-->
+    <aop:aspectj-autoproxy />
+
+<!--    spring中基于XML的AOP配置步骤-->
+<!--    1. 把通知Bean也交给spring来管理-->
+<!--    配合Logger类-->
+<!--    2. 使用aop:config标签表明开始AOP的配置-->
+<!--    3. 使用apo:aspect标签表明配置切面-->
+<!--    id属性：是给切面提供一个唯一的标识-->
+<!--    ref属性：是指定通知类bean的id-->
+<!--    4. 在aop:aspect标签的内部使用对应标签来配置通知的类型-->
+<!--            aop:before-->
+<!--                属性：mehtod：用于指定Logger类中哪个方法是前置通知-->
+<!--                属性：pointcut:用于指定切入点表达式，改表达式的含义指的是对业务层中哪些方法增强-->
+<!--                切入点表达式的写法：
+                        关键字：excecution(表达式)
+                        表达式：
+                            访问修饰符 返回值 包名.包名。。。类名。方法名(参数列表)
+                        标准表达式写法：
+                        public void com.itheima.service.impl.AccountServiceImpl.saveAccount()
+                        返回值可以用通配符，表示任意返回值   * com.itheima.service.impl.AccountServiceImpl.saveAccount()
+                        包名可以使用通配符，表示任意包。但是有几级包就需要写几个  *.
+                        包名可以使用..表示当前包及其子包* *..AccountService.saveAccount()
+                        类名和方法名都可以使用*来实现通配 * *..*.*()
+                        参数列表：
+                            可以直接写数据类型：
+                                基本类型直接写名称
+                                引用类型写报包名.类名的方式  java.lang.String
+                            可以使用通配符表示任意类型，但是必须有参数
+                            可以使用..表示有无参数均可，有参数可以是任意类型
+                        实际开发中切入点表达式的通常写法：
+                            切到业务层实现类下的所有方法
+                            * com.itheima.service.impl.*.*(..)
+
+                        -->
+
+    <bean id="accountService" class="com.itheima.service.impl.AccountServiceImpl">
+        <!--        注入dao-->
+<!--        <property name="accountDao" ref="accounDao"></property>-->
+        <!--        注入事务管理器-->
+<!--        <property name="txmanager" ref="txManager"></property>-->
+    </bean>
+<!--    配置Logger类-->
+    <bean id="logger" class="com.itheima.utils.Logger"></bean>
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--        连接数据库的必备信息-->
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/test"></property>
+        <property name="user" value="root"></property>
+        <property name="password" value=""></property>
+
+    </bean>
+    <bean id="connectionUtils" class="com.itheima.utils.ConnectionUtils">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <bean id="txManager" class="com.itheima.utils.TransactionManager">
+        <property name="connectionUtils" ref="connectionUtils"></property>
+    </bean>
+<!--    配置AOP-->
+    <aop:config>
+<!--        配置通用切入点表达式-->
+        <aop:pointcut id="pt1" expression="execution(* com.itheima.service.impl.*.*(..))"/>
+<!--        配置切面-->
+<!--        <aop:aspect id="logAdvice" ref="logger">-->
+<!--&lt;!&ndash;            配置通知的类型并且建立通知方法和切入点方法的关联&ndash;&gt;-->
+<!--            <aop:before method="printLog" pointcut="execution(* *..AccountService.saveAccount())"></aop:before>-->
+<!--        </aop:aspect>-->
+        <aop:aspect id="txAdvice" ref="txManager">
+<!--            配置前置通知，开启事务-->
+            <aop:before method="beginTransaction" pointcut-ref="pt1"></aop:before>
+<!--            配置后置通知，提交事务-->
+            <aop:after-returning method="commit" pointcut-ref="pt1"></aop:after-returning>
+<!--            配置异常通知，回滚事务-->
+            <aop:after-throwing method="rollback" pointcut-ref="pt1"></aop:after-throwing>
+<!--            配置最终通知，释放连接-->
+            <aop:after method="release" pointcut-ref="pt1"></aop:after>
+        </aop:aspect>
+    </aop:config>
+
+
+<!--    告知spring在创建容器时要扫描的包，配置所需要的标签不是在beans的约束中，而是一个名为context的名称空间和约束中-->
+<!--    <context:component-scan base-package="com.itheima"></context:component-scan>-->
+<!--    配置代理的service-->
+<!--    <bean id="proxyAccountService" factory-bean="beanFactory" factory-method="getAccountService"></bean>-->
+
+<!--&lt;!&ndash;    配置beanfactory&ndash;&gt;-->
+<!--    <bean id="beanFactory" class="com.itheima.factory.BeanFactory">-->
+<!--&lt;!&ndash;        注入service&ndash;&gt;-->
+<!--        <property name="accountService" ref="accountService"></property>-->
+<!--        <property name="txmanager" ref="txManager"></property>-->
+
+<!--    </bean>-->
+
+<!--&lt;!&ndash;    配置service&ndash;&gt;-->
+
+<!--&lt;!&ndash;    配置Dao对象&ndash;&gt;-->
+<!--    <bean id="accounDao" class="com.itheima.dao.impl.AccountDaoImpl">-->
+<!--&lt;!&ndash;        注入QueryRunner&ndash;&gt;-->
+<!--        <property name="runner" ref="runner"></property>-->
+<!--&lt;!&ndash;        注入ConnectionUtils&ndash;&gt;-->
+<!--        <property name="connectionUtils" ref="connectionUtils"></property>-->
+<!--    </bean>-->
+
+<!--&lt;!&ndash;    配置事务管理器&ndash;&gt;-->
+<!--    <bean id="txManager" class="com.itheima.utils.TransactionManager">-->
+<!--        &lt;!&ndash;        注入ConnectionUtils&ndash;&gt;-->
+<!--        <property name="connectionUtils" ref="connectionUtils"></property>-->
+
+<!--    </bean>-->
+
+<!--&lt;!&ndash;    配置QueryRunner&ndash;&gt;-->
+<!--    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">-->
+<!--        &lt;!&ndash;        注入数据源&ndash;&gt;-->
+<!--    </bean>-->
+<!--    &lt;!&ndash;    配置数据源&ndash;&gt;-->
+<!--    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">-->
+<!--        &lt;!&ndash;        连接数据库的必备信息&ndash;&gt;-->
+<!--        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>-->
+<!--        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/test"></property>-->
+<!--        <property name="user" value="root"></property>-->
+<!--        <property name="password" value=""></property>-->
+<!--    </bean>-->
+
+<!--&lt;!&ndash;    配置Connection的工具类 ConnectionUtils&ndash;&gt;-->
+<!--    <bean id="connectionUtils" class="com.itheima.utils.ConnectionUtils">-->
+<!--&lt;!&ndash;    注入数据源&ndash;&gt;-->
+<!--        <property name="dataSource" ref="dataSource"></property>-->
+
+<!--    </bean>-->
+
+
+</beans>

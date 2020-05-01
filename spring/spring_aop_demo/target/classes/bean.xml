@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <bean id="accountService" class="com.itheima.service.impl.Accountservice"></bean>
+    <bean id="txManager" class="com.itheima.utils.TransactionManager"></bean>
+    <aop:config>
+        <aop:pointcut id="pt1" expression="execution(public void com.itheima.service.impl.Accountservice.*())"/>
+        <aop:aspect id="txManager" ref="txManager">
+            <aop:before method="Before" pointcut-ref="pt1"></aop:before>
+
+        </aop:aspect>
+    </aop:config>
+
+</beans>

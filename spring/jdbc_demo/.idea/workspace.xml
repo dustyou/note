@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f024915-b0e5-42c4-90fa-28bd65539dc7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JdbcDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_jdbctemplate_xml&amp;annotation/src/main/java/com/itheima/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_jdbctemplate_xml&amp;annotation/src/main/java/com/itheima/service/impl/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_demo1/jdbc_demo1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_demo1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_demo1/src/main/java/jdbc_demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/spring10_jdbctemplate_demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/src/main/java/com/itheima/dao/IAccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/src/main/java/com/itheima/dao/impl/AccountDaoImpl1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/src/main/java/com/itheima/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/src/main/resources/bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/src/test/java/com/itheima/AccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/target/classes/bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/target/classes/com/itheima/dao/IAccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/target/classes/com/itheima/dao/impl/AccountDaoImpl1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/target/classes/com/itheima/domain/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/target/test-classes/com/itheima/AccountTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\Learn\Java\MavenRepository" />
+        <option name="userSettingsFile" value="D:\Program Files\Learn\Java\apache-maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1bI2t8rFF10N48DdG0KNltAGu35" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JdbcDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JdbcDemo1" />
+      <module name="jdbc_demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JdbcDemo1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f024915-b0e5-42c4-90fa-28bd65539dc7" name="Default Changelist" comment="" />
+      <created>1588305498665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588305498665</updated>
+      <workItem from="1588305501675" duration="1747000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1495" height="211" key="GridCell.Tab.0.bottom" timestamp="1588321138207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1495" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588321138207" />
+    <state width="1495" height="211" key="GridCell.Tab.0.center" timestamp="1588321138207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1495" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588321138207" />
+    <state width="1495" height="211" key="GridCell.Tab.0.left" timestamp="1588321138207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1495" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588321138207" />
+    <state width="1495" height="211" key="GridCell.Tab.0.right" timestamp="1588321138207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1495" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588321138207" />
+    <state x="414" y="30" key="Maven.ArtifactSearchDialog" timestamp="1588305547936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="414" y="30" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1588305547936" />
+  </component>
+</project>

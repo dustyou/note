@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="com.itheima"></context:component-scan>
+<!--    jdbc设置步骤：
+            1. 配置AccountDao，AccountDao配置属性：jdbcTemplate
+            （AccountDaoImpl1中要有jdbcTemplate属性的set方法才能在spring xml文件中进行注入）
+            2. 配置jdbcTemplate，jdbcTemplate配置属性：dataSource
+            3. 配置dataSource,dataSource配置属性：
+            <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+            <property name="url" value="jdbc:mysql://localhost:3306/test"></property>
+            <property name="username" value="root"></property>
+            <property name="password" value=""></property>
+-->
+
+<!--    1. AccountDao配置属性：jdbcTemplate-->
+    <bean name="accountDao" class="com.itheima.dao.impl.AccountDaoImpl1">
+        <property name="jdbcTemplate" ref="jdbcTemplate"></property>
+    </bean>
+
+<!--    2. jdbcTemplate配置属性：dataSource-->
+    <bean name="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+<!--    3. dataSource配置属性：driverClassName，url，username，password-->
+    <bean name="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/test"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value=""></property>
+    </bean>
+
+</beans>

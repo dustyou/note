@@ -30,6 +30,7 @@ public class TransactionManager {
      * 提交事务
      * */
     public void commit() {
+        System.out.println("commit");
         try {
             connectionUtils.getThreadConnection().commit();
         } catch (SQLException throwables) {
@@ -53,7 +54,7 @@ public class TransactionManager {
      * */
     public void release() {
         try {
-            connectionUtils.getThreadConnection().close();//还会连接池中，不是真正的关闭
+            connectionUtils.getThreadConnection().close();//还回连接池中，不是真正的关闭
             connectionUtils.removeConnection();
         } catch (SQLException throwables) {
             throwables.printStackTrace();

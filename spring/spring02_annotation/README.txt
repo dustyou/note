@@ -1,0 +1,2 @@
+xml加注解形式实现bean注入
+笔记在AccountServiceImpl中

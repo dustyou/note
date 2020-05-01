@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="853ad336-c81d-449a-a8db-671ba4f52bd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../jdbc_demo/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc_demo/src/main/java/JdbcDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Michael.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring04_annotation_withoutxml/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring02_account_xmlioc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accountSQL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/dao/IAccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/dao/impl/AccountDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/domain/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/service/IAccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/itheima/test/AccountServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/spring10_jdbctemplate_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/src/main/java/com/itheima/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/src/main/java/com/itheima/dao/impl/AccountDaoImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/src/main/java/com/itheima/dao/impl/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/src/main/java/com/itheima/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/src/main/java/com/itheima/service/impl/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/src/main/java/com/itheima/utils/ConnectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/src/main/java/com/itheima/utils/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/src/main/java/com/itheima/utils/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/src/test/java/com/itheima/AccountService_annotation_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/target/classes/com/itheima/dao/IAccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/target/classes/com/itheima/dao/impl/AccountDaoImpl2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/target/classes/com/itheima/dao/impl/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/target/classes/com/itheima/domain/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/target/classes/com/itheima/service/IAccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/target/classes/com/itheima/service/impl/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/target/classes/com/itheima/utils/ConnectionUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/target/classes/com/itheima/utils/Logger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/target/classes/com/itheima/utils/TransactionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_account_aoptx_xml_copy/target/test-classes/com/itheima/AccountService_annotation_Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_jdbctemplate_xml&amp;annotation/spring10_jdbctemplate_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_jdbctemplate_xml&amp;annotation/src/main/java/com/itheima/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_jdbctemplate_xml&amp;annotation/src/main/java/com/itheima/service/impl/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_jdbctemplate_xml/spring10_jdbctemplate_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/cglib/Client$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/cglib/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/cglib/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/dao/IAccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/dao/impl/AccountDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/domain/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/factory/BeanFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/factory/BeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/proxy/Client$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/proxy/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/proxy/IProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/proxy/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/service/IAccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/utils/ConnectionUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/utils/Logger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/classes/com/itheima/utils/TransactionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/test-classes/com/itheima/test/AOPTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/target/test-classes/com/itheima/test/AccounServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/.idea/spring11_account_aoptx_xml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/spring11_account_aoptx_xml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/src/main/java/com/itheima/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/src/main/java/com/itheima/utils/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/src/test/java/com/itheima/test/AOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/src/test/java/com/itheima/test/AccounServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/target/classes/com/itheima/domain/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/target/classes/com/itheima/service/IAccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/target/classes/com/itheima/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/target/classes/com/itheima/utils/TransactionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/target/test-classes/com/itheima/test/AOPTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml_copy/target/test-classes/com/itheima/test/AccounServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/spring_aop_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/src/main/java/com/itheima/service/impl/Accountservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/src/main/java/com/itheima/utils/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/src/test/java/com/itheima/test/AOPtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/target/classes/com/itheima/service/impl/Accountservice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/target/classes/com/itheima/utils/TransactionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop_demo/target/test-classes/com/itheima/test/AOPtest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc_demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc_demo/jdbc_demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc_demo/jdbc_demo1/jdbc_demo1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc_demo/jdbc_demo1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc_demo/jdbc_demo1/src/main/java/jdbc_demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc_demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/spring10_jdbctemplate_demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/src/main/java/com/itheima/dao/IAccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/src/main/java/com/itheima/dao/impl/AccountDaoImpl1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/src/main/java/com/itheima/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/src/main/resources/bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/src/test/java/com/itheima/AccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/target/classes/bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/target/classes/com/itheima/dao/IAccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/target/classes/com/itheima/dao/impl/AccountDaoImpl1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/target/classes/com/itheima/domain/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring10_jdbctemplate_copy/target/test-classes/com/itheima/AccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring11_account_aoptx_xml/src/main/java/com/itheima/utils/TransactionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring11_account_aoptx_xml/src/main/java/com/itheima/utils/TransactionManager.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\Learn\Java\MavenRepository" />
+        <option name="mavenHome" value="D:/Program Files/Learn/Java/apache-maven" />
+        <option name="userSettingsFile" value="D:\Program Files\Learn\Java\apache-maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1350" />
+    <option name="height" value="690" />
+  </component>
+  <component name="ProjectId" id="1bJDTTCcTn8w5dImphslrDLaq6A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Workspace/spring02_annotation" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15361744" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\My Files\Software Data\Code\Workspace\spring04_annotation_withoutxml" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\My Files\Software Data\Code\Workspace\spring04_annotation_withoutxml" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountServiceTest.testFindAll (1)">
+    <configuration name="AccountServiceTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring02_account_xmlioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.testFindAll (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring04_annotation_withoutxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring02_account_xmlioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testFindOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring02_account_xmlioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring02_account_xmlioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountServiceTest.testFindAll (1)" />
+        <item itemvalue="JUnit.AccountServiceTest.testDelete" />
+        <item itemvalue="JUnit.AccountServiceTest.testUpdate" />
+        <item itemvalue="JUnit.AccountServiceTest.testSave" />
+        <item itemvalue="JUnit.AccountServiceTest.testFindOne" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="853ad336-c81d-449a-a8db-671ba4f52bd2" name="Default Changelist" comment="" />
+      <created>1586662015821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586662015821</updated>
+      <workItem from="1586662017274" duration="672000" />
+      <workItem from="1586662771570" duration="34733000" />
+      <workItem from="1586705764799" duration="1678000" />
+      <workItem from="1586708060070" duration="31000" />
+      <workItem from="1586708126489" duration="62000" />
+      <workItem from="1588341312071" duration="1294000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AccountServiceTest_testFindAll - 2020.04.12 at 21h 04m 28s.xml">
+      <configuration name="AccountServiceTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest_testFindOne - 2020.04.12 at 21h 07m 52s.xml">
+      <configuration name="AccountServiceTest.testFindOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest_testSave - 2020.04.12 at 21h 10m 12s.xml">
+      <configuration name="AccountServiceTest.testSave" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest_testSave - 2020.04.12 at 21h 13m 26s.xml">
+      <configuration name="AccountServiceTest.testSave" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest_testUpdate - 2020.04.12 at 21h 20m 11s.xml">
+      <configuration name="AccountServiceTest.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest_testDelete - 2020.04.12 at 21h 23m 40s.xml">
+      <configuration name="AccountServiceTest.testDelete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest_testDelete - 2020.04.12 at 21h 24m 02s.xml">
+      <configuration name="AccountServiceTest.testDelete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest_testFindAll_(1) - 2020.04.12 at 23h 30m 51s.xml">
+      <configuration name="AccountServiceTest.testFindAll (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="542" y="167" key="FileChooserDialogImpl" timestamp="1588343223025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588343223025" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (spring02_account_xmlioc)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring03_account_annoioc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
