@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.IUserDao">
+<!--    namespace指定定义查询方法的IUserDao类所在位置-->
+<!--    配置查询所有-->
+<!--    id是方法的名称-->
+<!--    在这里，id属性是IUserDao中指定与查询结果绑定的方法的名称-->
+    <select id="findAll" resultType="com.itheima.domain.User">
+-- resultType指定查询返回结果对应的具有相同属性的ORM类User
+        select * from user
+--         分号可写可不写
+    </select>
+
+</mapper>

@@ -1,0 +1,13 @@
+﻿spring xml配置 spring02_account_xmlioc
+spring xml加注解配置 spring02_annotation
+spring 纯注解配置
+spring aop
+jdbc连接数据库
+spring中的各种DataSource
+    QueryRunner ComboPooledDataSource
+    JdbcTemplate
+
+
+
+spring aop      需要maven导入aspectj-waver.jar
+spring-test     spring整合junit

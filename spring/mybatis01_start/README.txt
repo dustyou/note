@@ -1,0 +1,2 @@
+mybatis入门案例
+用xml配置的方式写一个mybatis案例
