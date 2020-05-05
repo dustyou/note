@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.IUserDao">
+<!--    namespace指定定义查询方法的IUserDao类所在位置-->
+<!--    配置查询所有-->
+<!--    id是方法的名称-->
+<!--    在这里，id属性是IUserDao中指定与查询结果绑定的方法的名称-->
+    <select id="findAll" resultType="com.itheima.domain.User">
+
+<!-- resultType指定查询返回结果对应的具有相同属性的ORM类User-->
+        select * from user
+    <!--         分号可写可不写-->
+        </select>
+
+    <!--    保存用户-->
+    <insert id="saveUser" parameterType="com.itheima.domain.User">
+
+        <!--配置插入操作后，获取插入数据的id-->
+        <selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+
+        <!-- 如果User类里的属性的get、set方发都是右键生成的，可以直接写属性的名称，如id-->
+        <!--如果是自己手敲的，则要写get方法后的名称，如getId，写Id-->
+        insert into user(username,address,sex,birthday) values (#{username}, #{address}, #{sex}, #{birthday});
+        </insert>
+
+    <!--    更新用户-->
+    <update id="updateUser" parameterType="com.itheima.domain.User">
+        update user set username=#{username},address=#{address},sex=#{sex},birthday=#{birthday} where id = #{id};
+    </update>
+
+<!--    删除用户-->
+<!--    &#45;&#45; parameterType支持写int、Integer、java.lang.Integer-->
+<!--    &#45;&#45;         在deleteUser方法中只有一个参数，#{}中的内容可以随便写，只起到占位符的作用-->
+<!--    在下方标签里面的注释，如果用control加/，生成的是两条横线形式，一般不会报错，但如果其中有#{}就会报错，换成这种形式就都不会报错-->
+    <delete id="deleteUser" parameterType="Integer">
+    <!-- 一个不会报错的注释例子#{}-->
+        delete from user where id=#{uid};
+    </delete>
+
+<!--    根据id查询用户-->
+    <select id="findById" parameterType="Integer" resultType="com.itheima.domain.User">
+        select * from user where id = #{uid}
+    </select>
+
+<!--    根据名称模糊查询-->
+    <select id="findByName" parameterType="string" resultType="com.itheima.domain.User">
+        select * from user where username like #{name};
+<!--    另一种写法，{}中必须要写成value，不能写成其他,上面的写法是用preparedstatement查询，下面的写法是字符串拼接形式，更推荐采用上面的写法-->
+        <!--select * from user where username like '%#{value}%';-->
+    </select>
+
+    <select id="findTotal" resultType="int">
+        select count(id) from user;
+    </select>
+
+    <!--根据QueryVo的条件查询用户-->
+    <select id="findUserByVo" parameterType="com.itheima.domain.QueryVo" resultType="com.itheima.domain.User">
+        select * from user where username like #{user.username}
+    </select>
+
+</mapper>

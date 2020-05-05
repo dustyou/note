@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef574901-f0f7-4c70-a6ea-d5c98a535a88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mybatis01_start_copy/mybatis_start_copy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01_xml/mybatis01_start.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01_xml/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis01_xml/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis02_annotation/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis02_annotation/src/test/java/com/itheia/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis02_annotation/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis02_annotation/target/classes/com/itheima/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis02_annotation/target/classes/com/itheima/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis02_annotation/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis02_annotation/target/test-classes/com/itheia/test/MybatisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/mybatis03_mybatis_dao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/src/main/java/com/itheima/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/src/main/java/com/itheima/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/src/test/java/com/itheia/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/target/classes/com/itheima/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/target/classes/com/itheima/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis03_mybatis_dao/target/test-classes/com/itheia/test/MybatisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis04_xml_CRUD/.idea/mybatis04_xml_CRUD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis04_xml_CRUD/mybatis01_start.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis04_xml_CRUD/src/main/java/com/itheima/domain/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis04_xml_CRUD/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis04_xml_CRUD/target/classes/com/itheima/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis04_xml_CRUD/target/classes/com/itheima/dao/IUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis04_xml_CRUD/target/classes/com/itheima/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis04_xml_CRUD/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis04_xml_CRUD/target/test-classes/com/itheia/test/MybatisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/mybatis05_configdemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/src/main/java/com/itheima/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/src/main/java/com/itheima/domain/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/src/main/resources/com/itheima/dao/IUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/src/test/java/com/itheia/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/target/classes/com/itheima/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/target/classes/com/itheima/dao/IUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/target/classes/com/itheima/domain/QueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/target/classes/com/itheima/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis05_configdemo/target/test-classes/com/itheia/test/MybatisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06_datasource_and_tx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/itheima/dao/IUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheia/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/dao/IUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/domain/QueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/itheia/test/MybatisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring/mybatis01_start/.idea/mybatis01_start.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02_annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02_annotation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02_annotation/src/main/java/com/itheima/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02_annotation/src/main/java/com/itheima/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02_annotation/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02_annotation/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02_annotation/src/main/resources/com/itheima/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01_xml/target/classes/com/itheima/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/mybatis_start_copy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/src/main/java/com/itheima/dao/IUserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/src/main/java/com/itheima/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/src/main/resources/com/itheima/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/src/test/java/com/itheima/test/MybatisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/target/classes/com/itheima/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/target/classes/com/itheima/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/target/classes/com/itheima/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_start_copy/target/test-classes/com/itheima/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/jdbc_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring/jdbc_demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/jdbc_demo/src/main/java/JdbcDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring/jdbc_demo/src/main/java/JdbcDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/jdbc_demo/target/classes/JdbcDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring/jdbc_demo/target/classes/JdbcDemo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring/mybatis01_start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring/mybatis01_start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/mybatis01_start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/mybatisdb.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/src/main/java/com/itheima/dao/IUserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/src/main/java/com/itheima/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/src/main/resources/com/itheima/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/src/test/java/com/itheia/test/MybatisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/target/classes/META-INF/mybatis01_start.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/target/classes/com/itheima/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/target/classes/com/itheima/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/target/classes/com/itheima/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/mybatis01_start/target/test-classes/com/itheia/test/MybatisTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\Learn\Java\MavenRepository" />
+        <option name="userSettingsFile" value="D:\Program Files\Learn\Java\apache-maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1bUT7908AC6GsLIsWo6wHkjN04U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MybatisTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis06_datasource_and_tx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheia.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheia.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheia.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisTest.testFindAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef574901-f0f7-4c70-a6ea-d5c98a535a88" name="Default Changelist" comment="" />
+      <created>1588685502746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588685502746</updated>
+      <workItem from="1588685505694" duration="1710000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1495" height="211" key="GridCell.Tab.0.bottom" timestamp="1588695020132">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1495" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588695020132" />
+    <state width="1495" height="211" key="GridCell.Tab.0.center" timestamp="1588695020132">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1495" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588695020132" />
+    <state width="1495" height="211" key="GridCell.Tab.0.left" timestamp="1588695020131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1495" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588695020131" />
+    <state width="1495" height="211" key="GridCell.Tab.0.right" timestamp="1588695020132">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1495" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588695020132" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588686090314">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588686090314" />
+  </component>
+</project>
