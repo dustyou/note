@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RegExp</title>
+</head>
+<body>
+    <script>
+        //RegExp的两种创建方式
+        var reg = new RegExp("\\w{6,12}");
+        var reg2 = /^\w{6,12}$/;
+
+
+
+        var username = "zhangsan";
+
+        //RegExp的test方法
+
+        var flag = reg2.test(username);
+        var flag = reg.test(username);
+        document.write(flag);
+
+
+    </script>
+
+</body>
+</html>

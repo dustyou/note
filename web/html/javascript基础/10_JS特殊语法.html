@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS特殊语法</title>
+</head>
+<body>
+    <script>
+        /*
+        * 1. 一行结尾可以不写分号
+        * */
+        var a = 3;
+        alert(a);
+
+        /*
+        * 2. 变量的定义可以用var关键字, 也可以不适用
+        *   用var, 定义的是局部变量
+        *   不用var, 定义的是全局变量
+        *   不建议不加var的写法
+        * */
+        function fun() {
+            flag = 4
+            // var b = 4
+            alert(b)
+        }
+
+        fun()
+        alert(flag)
+
+
+
+    </script>
+
+</body>
+</html>

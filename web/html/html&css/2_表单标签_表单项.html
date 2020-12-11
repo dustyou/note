@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单项</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <label for="username">用户名: </label><input type="text" name="username" placeholder="请输入用户名" id="username"><br>
+        <label>密码: </label><input type="password" name="password" placeholder="请输入密码"><br>
+        性别:
+            <input type="radio" name="gender" value="male" checked="checked">男
+            <input type="radio" name="gender" value="femal">女<br>
+        爱好: <input type="checkbox" name="hobby" value="shopping" checked="checked">逛街
+        <input type="checkbox" name="hobby" value="Java">学Java
+        <input type="checkbox" name="hobby" value="game">游戏<br>
+        <input type="file" name="file"><br>
+        隐藏域: <input type="hidden" name="id" value="666<br>"><br>
+        图片: <input type="image" src="../../image/test.jpg" width="100px"><br>
+        取色器: <input type="color"><br>
+        生日: <input type="date" name="birthday"><br>
+        生日: <input type="datetime-local" name="birthday"><br>
+        邮箱: <input type="email" name="email"><br>
+        年龄: <input type="number" name="age"><br>
+        省份: <select name="province">
+            <option value="">--请选择--</option>
+            <option value="1">北京</option>
+            <option value="2">上海</option>
+            <option value="3">广西</option>
+            <option value="4">山西</option>
+        </select><br>
+        <textarea cols="20" rows="5" name="desc"></textarea><br>
+
+
+        <input type="submit" value="提交">
+    </form>
+
+</body>
+</html>

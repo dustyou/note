@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="redis" />
+        <module name="filter" />
+        <module name="jsp_case" />
+        <module name="jquery" />
+        <module name="cookie4" />
+        <module name="ajax&amp;json" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ajax&amp;json" options="" />
+      <module name="cookie4" options="" />
+      <module name="filter" options="" />
+      <module name="jquery" options="" />
+      <module name="jsp_case" options="" />
+      <module name="redis" options="" />
+      <module name="web" options="" />
+    </option>
+  </component>
+</project>

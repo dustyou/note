@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <table style="border: 1px solid red;">
+            <tr>
+                <td>id</td>
+                <td>姓名</td>
+            </tr>
+            <tr v-for="item in userList">
+                <td>{{item.name}}</td>
+                <td>{{item.age}}</td>
+            </tr>
+        </table>
+
+    </div>
+    <script src="vue.js"></script>
+    <!-- <script src="vue.min.js"></script> -->
+    <script src="axios.min.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                //在data中定义变量和初始值
+                //定义变量, 值 空数组
+                userList:[]
+            },
+            created() {//页面渲染之前执行
+                //调用定义的方法
+                this.getUserList()
+                
+            },
+            methods: {//编写具体的方法
+                // 创建方法, 查询所有用户数据
+                getUserList() {
+                    //使用axios发送ajax请求
+                    //axios.提交方式("请求接口路径").then(箭头函数).catch()
+                    axios.get('data.json')//可以换成后端提供数据的地址
+                        .then(response => {
+                            //response就是请求之后返回的数据
+                            console.log(response)
+                            this.userList = response.data.data.items
+                        })//请求成功执行then方法 (response可以随便起名字, 为了有意义写了response)
+                        .catch(erro => {
+                            console.log("*****erro")
+                        })//请求失败执行catch方法
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

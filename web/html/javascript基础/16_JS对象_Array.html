@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        // JS中, 数组长度/ 类型都是可变的
+        var arr1 = new Array(1, 2, 3);
+        var arr2 = new Array(5);
+        var arr3 = [1, "abc", true, 4, 5]
+
+        document.write(arr1 + "<br>");
+        document.write(arr2 + "<br>");
+        document.write(arr3 + "<br>");
+        document.write(arr3[0] + "<br>");
+        document.write(arr3[1] + "<br>");
+        document.write(arr3[2] + "<br>");
+        document.write(arr3[3] + "<br>");
+        //打印一个越界的数组, 数组长度自动增加, 打印的值为undefined
+        document.write(arr3[5] + "<br>");
+        arr3.push(5);
+        var b = Boolean(0);
+        document.write(b);
+
+
+
+
+
+    </script>
+
+</body>
+</html>

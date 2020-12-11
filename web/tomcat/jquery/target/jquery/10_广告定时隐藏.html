@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>广告定时隐藏</title>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script>
+        $(function () {
+            setTimeout(adShow,3000);
+            setTimeout(adHide,8000);
+            // setTimeout(alert("eraser"), 1000);
+
+
+
+
+        $("#showBtn").click(function () {
+            $("#ad").show();
+        });
+
+        });
+
+        function adShow() {
+            $("#ad").show();
+            alert("addshow");
+        }
+
+        function adHide() {
+            $("#ad").hide();
+            alert("addhide");
+        }
+
+    </script>
+</head>
+<body>
+
+
+<div id="ad" style="display:none;">
+    <img src="img/adv.jpg" >
+    <p>广告图片</p>
+</div>
+<!--<img src="adv.jpg">-->
+<p>img</p>
+<p>img</p>
+<input type="button" value="点击显示" id="showBtn">
+
+</body>
+</html>

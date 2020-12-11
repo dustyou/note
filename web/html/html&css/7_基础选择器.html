@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础选择器</title>
+    <style>
+        #div1 {
+            color: red;
+
+        }
+
+        div {
+            color: blue;
+        }
+
+        .cls1 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    1. 基础选择器
+        1. id选择器, 选择具体的id属性值的元素
+        2. 元素选择器
+            语法: 标签名称 {}
+            注意: id选择器优先级高于元素选择器
+        3. 类选择器
+            语法: .class属性值 {}
+            优先级: id选择器> 类选择器> 元素选择器
+
+    <div id="div1">传智播客</div>
+    <div >传智播客</div>
+    <div class="cls1">黑马程序员</div>
+
+
+</body>
+</html>

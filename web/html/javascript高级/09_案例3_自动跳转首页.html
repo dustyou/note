@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动跳转首页</title>
+    <style>
+        p {
+            text-align: center;
+        }
+        #time {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        <span id="time">5</span>秒之后, 自动跳转到首页...
+    </p>
+    <script>
+        //设置初试秒数
+        var second = 5;
+        //获取时间显示对象
+        var time = document.getElementById("time");
+        //设置定时器
+        setInterval(showTime, 1000);
+
+        //设置执行函数
+        function showTime() {
+            second--;
+            time.innerHTML = second;
+            if (second <= 0) {
+                location.href = "https://www.baidu.com";
+            }
+        }
+
+
+    </script>
+
+
+</body>
+</html>

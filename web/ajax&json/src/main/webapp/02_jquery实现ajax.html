@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原生ajax</title>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script>
+        function fun() {
+            //使用$.ajax()发送异步请求
+            $.ajax({
+                url:"ajaxServlet",//请求路径
+                type:"POST",//请求方式
+                // data:"username=jack&age=23",//请求参数
+                data:{"username":"jack","age":23},
+                success:function (data) {
+                    alert(data);
+                    alert("success");
+                },//响应成功后的回调函数
+                error: function () {
+                    alert("出错了");
+                },//标识如果请求响应出现错误, 会执行的回调函数
+                dataType: "text"//设置接收到的响应数据格式
+                //最后一个项目后面不加逗号
+            });
+        }
+
+    </script>
+</head>
+<body>
+<input type="button" value="发送异步请求" onclick="fun();"><input type="text">
+
+
+</body>
+</html>

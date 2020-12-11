@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件切换</title>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery-migrate-1.0.0.js"></script>
+    <script>
+        $(function () {
+            //1. 获取按钮, 调用toggle方法
+            $("#btn1").toggle(function () {
+                //改变div背景色为green
+                $("#mydiv").css("backgroundColor", "green");
+            }, function () {
+                $("#mydiv").css("backgroundColor", "pink");
+            })
+        });
+
+    </script>
+</head>
+<body>
+
+<input id="btn1" type="button" value="事件切换">
+<div id="mydiv" style="width: 100px; height: 100px;background-color: blue">div</div>
+
+</body>
+</html>

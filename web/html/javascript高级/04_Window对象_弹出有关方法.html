@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Window对象/BOM</title>
+    <script>
+        //与弹出框相关的方法
+        //Window对象调用方法: window.方法  window. 可以省略
+        window.alert("hello window");
+        alert("hello hhha");
+
+
+        //confirm, 如果用户点击确定按钮, 则返回true, 如果点击取消按钮, 则返回false
+        //用于防止误操作, 用于删除或者退出/注销时的确认
+        var flag = confirm("您确定要退出吗?");
+        document.write(flag);
+        if (flag) {
+            //进行退出的一些操作
+            document.write("您已经退出! " + "<br>");
+        } else {
+            //返回, 不退出
+            document.write("手别抖 " + "<br>");
+        }
+
+        //prompt, 获取用户的输入值
+        var result = prompt("请输入用户名");
+        document.write(result)
+
+
+
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>

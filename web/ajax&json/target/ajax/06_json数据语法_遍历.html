@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json数据语法 遍历</title>
+    <script>
+        //1. 定义基本格式
+        var person = {"name": "张三", age: 23, "gender": true};
+
+        //2. 嵌套格式 {} -> []
+        var persons = {"persons": [
+                {"name": "张三", age: 23, "gender": true},
+                {"name": "李四", age: 24, "gender": true},
+                {"name": "王五", age: 25, "gender": true},
+            ]
+        };
+
+        //3. 嵌套格式 [] -> {}
+        var ps = [
+            {"name": "张三", age: 23, "gender": true},
+            {"name": "李四", age: 24, "gender": true},
+            {"name": "王五", age: 25, "gender": true},
+        ];
+
+        //获取person对象中所有的键和值
+        for(var key in person) {
+            // alert(key + ": " + person.key);//这样获取不行, 因为这中写法相当于 person."name", person."age", person."gender"
+            // alert(key + ": " + person[key]);
+        }
+
+        //获取ps中的所有值
+        for (var i = 0; i < ps.length; i++) {
+            var p = ps[i];
+            for (var key in p) {
+                alert(i +":" + key + ": " + p[key]);
+                document.write(key + ": " + p[key])
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

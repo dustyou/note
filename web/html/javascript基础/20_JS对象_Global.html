@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global</title>
+</head>
+<body>
+    <script>
+        var str = "传智播客";
+        var encode = encodeURI(str);
+        document.write(encode + "<br>")
+
+        var decode = decodeURI(encode);
+        document.write(decode + "<br>");
+
+        // encodeURIComponent() 比 encodeURI() 能编码的字符更多(一些标点/符号也可以编码)
+        var str = "传智播客";
+        var encode = encodeURIComponent(str);
+        document.write(encode + "<br>")
+
+        var decode = decodeURIComponent(encode);
+        document.write(decode + "<br>");
+
+        // patsInt
+        var str = "123";
+        var b = +str + 1;
+        document.write(b + "<br>");
+
+        var str2 = "123abc";
+        var number = parseInt(str2);
+        document.write(number + "<br>");
+
+        var b = isNaN("123a");
+        document.write(b + "<br>");
+
+        //eval
+        var jscode = "alert('in eval')";
+        eval(jscode);
+
+    </script>
+
+</body>
+</html>

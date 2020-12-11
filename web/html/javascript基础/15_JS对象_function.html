@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>function</title>
+</head>
+<body>
+    <script>
+        // function对创建方式:
+
+        // 1.
+        var fun1 = new Function("a", "b", "alert(a)");
+        // fun1(3,4);
+        //此方法不常用, 难用, 忘掉
+
+        //2.
+        function fun2(a, b) {
+            alert(a+b);
+        }
+        // fun2(3,4);
+        //参数列表可以写fun2(var a, var b), var可以省略
+
+        //3.
+        var fun3 = function (a, b) {
+            alert(a + b);
+        }
+
+        // fun3(4,5);
+
+        //方法的属性:
+        /*
+        *   length: 传入形参的个数
+        *
+        * */
+        /*
+        * 特点: 定义名称相同的方法不会报错, 而会覆盖之前的方法
+        * */
+
+        function fun2(a, b) {
+            alert(a);
+        }
+        // fun2(3);
+        //调用时如果不传方法的参数, 默认为undefined
+        //传入的参数个数可以多于定义数量
+        // fun2(1,2,3)
+
+        //JS中方法的调用只和方法名称有关, 和参数列表无关
+
+    //    求任意个数的和
+        function add() {
+            var sum = 0;
+            for (var i = 0; i < arguments.length; i++) {
+                sum += arguments[i];
+            }
+            return sum;
+        }
+
+        alert(add(1, 2, 3, 4));
+
+    </script>
+
+</body>
+</html>

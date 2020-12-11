@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <h1 :title="message">
+            {{content}}
+        </h1>
+        <!-- 单向绑定 -->
+        <input type="text" v-bind:value="searchMap.keyWord"/>
+        <!-- 双向绑定 -->
+        <input type="text" v-model:value="searchMap.keyWord"/>
+        <p>您要查询的是：{{searchMap.keyWord}}</p>
+    </div>
+    
+    
+    <script src="vue.js"></script>
+    <script src="vue.min.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                content:'我是标题',
+                message:'页面加载于' + new Date().toLocaleDateString()
+                ,
+                searchMap: {
+                    keyWord:'尚硅谷'
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

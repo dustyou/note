@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbb62d2d-8197-4099-bfa6-94c5c68854fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/abc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/dest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/io.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/ContendDecode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/ContentEncode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/Copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/Demo03_name_path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/Demo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/Demo05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/Demo06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/DirCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/DirDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/DirDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/DirDemo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/DirDemo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/IOTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/IOTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/IOTest02_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/IOTest02_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/IOTest02_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/IOTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/IOTest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/IOTest04_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/IOTest05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/IOTest06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/IOTest07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/IOTest08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/IOTest09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/io/Path01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/Node3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/SxtHashMap02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/SxtHashMap03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/SxtHashMap04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/SxtHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/TestHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/TestIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/TestStoreData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/TestStoreData2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/TestTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/TestTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/others/CAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/others/DoubleCheckedLocking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/others/HappenBefore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/others/LockTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/others/LockTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/others/LockTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/others/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/others/ThreadLocalTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/others/ThreadLocalTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/others/TimerTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/others/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread01/CRacer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread01/LambdaTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread01/LambdaThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread01/Racer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread01/StartThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread01/StaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread01/Web12306.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread02/AllState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread02/BlockdJoin01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread02/Blocked03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread02/BlockedSleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread02/DaemonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread02/InfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread02/PriorityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread02/TerminateThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread02/YieldDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread02/YieldDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/Happy12306.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/HappyCinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/HappyCinema2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/SynBlockTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/SynBlockTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/SynBlockTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/SynContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/SynTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/SynTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/UnsafeTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/UnsafeTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread03/syn/UnsafeTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread04/cooperation/CoTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/thread04/cooperation/CoTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../javase/src/test_copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html&amp;css/11_案例_注册页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html&amp;css/1_表单标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html&amp;css/2_表单标签_表单项.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html&amp;css/3_案例1_注册页面(html).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html&amp;css/4_css与html结合方式1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html&amp;css/5_css与html结合方式2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html&amp;css/6_css与html结合方式3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html&amp;css/7_基础选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html&amp;css/8_扩展选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html/1_HelloWorld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html/4_图片标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html/5_列表标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html/6_链接标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html/7_块标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html/8_表格标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html/9_综合案例_网站首页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript基础/10_JS特殊语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript基础/11_JS语法_switch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript基础/14_练习_九九乘法表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript基础/15_JS对象_function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript基础/16_JS对象_Array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript基础/17-JS对象_Date.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript基础/18_JS对象_Math.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript基础/19_JS对象_RegExp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript基础/1_JS与html结合方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript基础/20_JS对象_Global.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript基础/4_JS变量_typeof.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript高级/01_获取元素对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript高级/03_案例1_电灯开关.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript高级/04_Window对象_弹出有关方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript高级/05_Window对象_与打开关闭有关方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript高级/06_Window对象_与定时器有关方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript高级/06_案例2_轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript高级/07_Window对象_history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript高级/08_Location对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript高级/09_案例3_自动跳转首页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript高级/10_History对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript高级/11_Document对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/javascript高级/12_Element对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/off.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/on.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../web2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../web2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../web2/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../javase/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../javase/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../javase/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../javase/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/SxtHashMap01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/SxtHashMap01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../javase/src/main/java/cn/sxt/mycollection/TestMap.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\Learn\Java\MavenRepository" />
+        <option name="userSettingsFile" value="D:\Program Files\Learn\Java\apache-maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1dJEtVXMIlAVfpKFIKMlypfyt2w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../.." />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbb62d2d-8197-4099-bfa6-94c5c68854fc" name="Default Changelist" comment="" />
+      <created>1592135010584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592135010584</updated>
+      <workItem from="1592135012001" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="542" y="167" key="FileChooserDialogImpl" timestamp="1592135031134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592135031134" />
+  </component>
+</project>

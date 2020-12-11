@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery快速入门</title>
+    <script src="js/jquery-3.5.1.js"></script>
+</head>
+<body>
+<div id="div1">div1...</div>
+<div id="div2">div2...</div>
+
+<script>
+    var divs = document.getElementsByTagName("div");
+    var $divs = $("div");
+    // alert(divs.length);
+    // alert($divs.length);
+    for (var i = 0; i < divs.length; i++) {
+        divs[i].innerHTML = "aaa"
+    }
+
+    $divs.html(("bbb"));
+    $(divs).html("ccc");
+    $divs[0].innerHTML="ddd";
+    $divs.get(1).innerHTML="ddd";
+    //jquery对象在操作时更加方便
+    //jquery对象和js对象的方法不通用
+    //两者相互转换
+    /*
+    * jquery -> js: jquery对象[索引] 或者 jquery对象.get(索引)
+    * js -> jquery: $(js对象
+    *
+    *
+    *
+    * */
+</script>
+
+</body>
+</html>

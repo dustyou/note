@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>打开关闭方法</title>
+</head>
+<body>
+    <input id="openBtn" type="button" value="打开窗口">
+    <input id="closeBtn" type="button" value="关闭窗口">
+
+    <script>
+        var newWindow;
+        //open() 打开一个新窗口
+        openBtn = document.getElementById("openBtn");
+        openBtn.onclick = function () {
+            newWindow = open("http://www.baidu.com");
+        }
+
+
+        // close() 关闭窗口, 谁调用关掉谁
+
+        closeBtn = document.getElementById("closeBtn");
+        closeBtn.onclick = function () {
+            newWindow.close();
+        }
+
+
+    </script>
+
+</body>
+</html>

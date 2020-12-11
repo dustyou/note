@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery快速入门</title>
+    <script src="js/jquery-3.5.1.js"></script>
+</head>
+<body>
+<div id="div1">div1...</div>
+<div id="div2">div2...</div>
+<input type="button" value="点我" id="b1">
+
+<script>
+    //给b1按钮添加单机事件
+    window.onload = function () {
+        document.getElementById("b1").onclick = function () {
+            alert("abc");
+        };
+    };
+
+    //jqeury入口函数(DOM文档加载完成后执行该函数中的代码)
+    // $(function () {
+    //     $("#b1").click(function () {
+    //         alert("abc");
+    //     });
+    // });
+    /*
+    window.onload和$(function () {
+
+     })区别: window.onload只能定义一次, 如果定义多次, 后面的会将前面的覆盖
+     例如: 定义了
+     window.onload = function1
+     window.onload = function2
+     function2会覆盖function1
+    */
+    $("#div1").css("background-color", "red");
+    $("#div1").css("backgroundColor", "pink");
+</script>
+
+</body>
+</html>

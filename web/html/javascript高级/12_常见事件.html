@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常见事件</title>
+</head>
+    <script>
+
+        onload = function () {
+            var p1 = document.getElementById("p1");
+            var username = document.getElementById("username");
+            username.onblur = function () {
+                // alert("失去焦点了!");
+            }
+
+            // 鼠标移动到元素上
+            username.onmouseover = function () {
+                // p1.innerHTML = "鼠标来了! ";
+            }
+
+            // 鼠标离开元素
+            username.onmouseout = function () {
+                p1.innerText = "";
+            }
+
+            //鼠标点击
+            username.onmousedown = function (event) {
+                p1.innerHTML = "鼠标点击了" + event.button;
+
+                // alert(event.button)
+            }
+
+            username.onkeydown = function (event) {
+                p1.innerHTML = "按了" + event.key;
+
+                // alert(event.button)
+            }
+
+
+            //表单事件, 如果方法返回false则表单被阻止提交
+            // form.onsubmit = checkForm();//这样写也不行
+            var form = document.getElementById("form");
+            form.onsubmit = function () {
+                var flag = false;
+                return flag;
+            }
+
+            var checkForm = function () {
+                var flag = false;
+                return flag;
+            }
+
+        }
+    </script>
+    <body>
+    <!--    失去焦点事件-->
+    <input id="username" type="text">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="p1"></p>
+
+    <p>第一种写法: </p>
+    <form id="form" action="#" >
+        <input name="username" id="username1">
+        <select id="city">
+            <option>---请选择---</option>
+            <option>北京</option>
+            <option>上海</option>
+            <option>广州</option>
+            <option>深圳</option>
+
+        </select>
+
+        <input type="submit" value="提交">
+
+    </form>
+
+    <p>第二种写法: </p>
+    <form id="form2" action="#" >
+        <input name="username" id="username2">
+        <select id="city2">
+            <option>---请选择---</option>
+            <option>北京</option>
+            <option>上海</option>
+            <option>广州</option>
+            <option>深圳</option>
+
+        </select>
+
+        <input type="submit" value="提交" onclick="return checkForm();">
+<!--        好像这样也不行? 和教程上不一样-->
+
+    </form>
+</body>
+</html>

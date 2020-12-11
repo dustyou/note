@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原生ajax</title>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script>
+        function fun() {
+            //使用$.ajax()发送异步请求
+            $.get("ajaxServlet", {"username": "rose"}, function (data) {
+                alert(data)
+            }, "text");
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="发送异步请求" onclick="fun();"><input type="text">
+
+
+</body>
+</html>

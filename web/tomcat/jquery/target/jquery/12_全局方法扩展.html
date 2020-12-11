@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全局方法扩展</title>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script>
+        $.extend({
+            max:function (a, b) {
+                //返回两个数中的较大值
+                return a >= b? a: b;
+            },
+            min:function (a, b) {
+                //返回两个数中的较小值
+                return a <= b? a: b;
+            }
+        });
+
+        //调用全局方法
+        var max = $.max(4, 3);
+        alert(max);
+        var min = $.min(4, 3);
+        alert(min);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

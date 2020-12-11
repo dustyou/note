@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>typeof</title>
+</head>
+<body>
+    <script>
+
+        var num1= 1;
+        var num2 = 1.2
+        var num3 = NaN
+        document.write(num1+"----"+typeof num1+"<br>")
+        document.write(num2+"----"+typeof num1+"<br>")
+        document.write(num3+"----"+typeof num1+"<br>")
+
+        var str1 = "abc"
+        var str2 = 'def'
+        var str3 = "a"
+
+        document.write(str1+"----"+typeof str1+"<br>")
+        document.write(str2+"----"+typeof str2+"<br>")
+        document.write(str3+"----"+typeof str3+"<br>")
+
+        var obj1 = null
+        var obj2
+        var obj3 = undefined
+
+        document.write(obj1+"----"+typeof obj1+"<br>")
+        document.write(obj2+"----"+typeof obj2+"<br>")
+        document.write(obj3+"----"+typeof obj3+"<br>")
+
+
+        var a = true
+        document.write(+a)
+        document.write("<br>")
+        document.write("abc">'abd')
+        document.write("<br>")
+        document.write("a"<122)
+        document.write("<br>")
+        document.write("a">"122")
+        document.write("<br>")
+        //其他类型转boolean:
+        //NaN, 0, ""(空字符串), null, undefined 为false, 非0数字, 非空字符串为true
+
+        document.write(!"")
+        document.write("<br>")
+        document.write(!"a")
+
+    </script>
+
+</body>
+</html>

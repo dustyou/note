@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+
+
+</head>
+<body>
+    <img id="light" src="../../image/off.jpg" onclick="fun();">
+    <img id="light2" src="../../image/off.jpg" onclick="fun();">
+
+    <h1 id="title">悔创阿里杰克马</h1>
+
+    <script>
+        function fun() {
+            alert('我被点了');
+        }
+
+    </script>
+
+    <script>
+        var light2 = document.getElementById("light2");
+        light2.onclick = fun;
+
+    </script>
+
+    <script>
+        //通过id获取元素对象
+        var light = document.getElementById("light");
+        // alert("我要换图片了");
+        light.src = "../../image/on.jpg";
+
+        // //获取h1标签对象
+        // var title = document.getElementById("title");
+        // //修改内容
+        // title.innerHTML = "不识妻美刘强东";
+        // alert("我要换内容了");
+
+
+
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>History</title>
+</head>
+<body>
+    <input type="button" id="btn" value="获取历史记录个数">
+    <a href="09_案例3_自动跳转首页.html">暗室逢灯</a>
+    <script>
+        var btn = document.getElementById("btn");
+        btn.onclick = function () {
+            //获取历史记录个数
+            var length = history.length;
+            alert(length);
+        }
+
+    </script>
+
+</body>
+</html>

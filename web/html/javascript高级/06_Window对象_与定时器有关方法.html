@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时器方法</title>
+</head>
+<body>
+    <script>
+        //setTimeout(code, milisec, lang)一次性定时器
+        // setTimeout("fun()", 3000);
+        // setTimeout(fun, 3000);
+
+        function fun() {
+            document.write("boom! " + "<br>");
+        }
+
+        var id = setInterval(fun, 2000);
+        clearInterval(id);
+    </script>
+
+</body>
+</html>

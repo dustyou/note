@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json数据语法</title>
+    <script>
+        //1. 定义基本格式
+        var person = {"name": "张三", age: 23, "gender": true};
+        // alert(person);
+        // var name = person.name;
+        var name = person["name"];//弹出 "张三"
+        alert(name);
+        //2. 嵌套格式 {} -> []
+        var persons = {"persons": [
+                {"name": "张三", age: 23, "gender": true},
+                {"name": "李四", age: 24, "gender": true},
+                {"name": "王五", age: 25, "gender": true},
+            ]
+        };
+        // alert(persons);
+        var name1 = persons.persons[2].name;
+        alert(name1);//弹出 "王五"
+        //3. 嵌套格式 [] -> {}
+        var ps = [
+            {"name": "张三", age: 23, "gender": true},
+            {"name": "李四", age: 24, "gender": true},
+            {"name": "王五", age: 25, "gender": true},
+        ];
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
